@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    
+}
+
+
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh 60vh 25vh 5vh;
+    grid-area:
+    "nav"
+    "header"
+    "aside"
+    "foo";
+}
+
+
+#nav {
+    grid-area: nav;
+}
+
+#header {
+    grid-area: header;
+}
+
+#asidee {
+    grid-area: aside;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#foo {
+    grid-area: foo;
+}
+
+
+@media screen and (min-width: 768px) {
+    body {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 10vh 85 5vh;
+        grid-template-areas:
+        "nav nav nav"
+        "header header aside"
+        "foo foo foo";
+    }
+}
+    
