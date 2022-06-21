@@ -68,6 +68,15 @@ html{
 
 .menu ul img {
     width: 4rem;
+    background-color: #5D8B84;
+
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+@keyframes example {
+    from {background-color: red;}
+    to{background-color: blue}
 }
 
 .menu ul {
@@ -104,7 +113,7 @@ html{
 
     margin: 5px 5px 5px 0;
     padding: 10px;
-
+  
 }
 
 /* termina img_main */
