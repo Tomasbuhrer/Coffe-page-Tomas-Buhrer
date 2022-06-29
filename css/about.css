@@ -115,6 +115,12 @@ html{
     
     padding: 10px;
 }
+.notice h1 {
+    font-size: 2rem;
+}
+.notice p {
+    font-size: 15px;
+}
 
 
 .foo_img {

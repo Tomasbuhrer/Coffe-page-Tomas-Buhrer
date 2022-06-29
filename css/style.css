@@ -66,16 +66,36 @@ html{
     
 }
 
-.menu ul img {
-    width: 4rem;
+#navbarNav {
+   justify-content: center;
+}
+
+.navbar-brand img {
+   width: 4rem;
+
+}
+
+.navbar-collapse ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
     background-color: #5D8B84;
-
-
+    
+    
 }
 
 
 
-.menu ul {
+
+/* class */
+.bg-green {
+    background-color: #5D8B84;
+}
+
+
+
+/* .menu ul {
     
     display: flex;
     flex-direction: row;
@@ -88,7 +108,7 @@ html{
     border-radius: 2rem;
   
     
-}
+} */
 
 .menu ul li {
     display: flex;
@@ -175,6 +195,181 @@ html{
     
    width: 100px;
 }
+
+
+/* Specialty-CSS */
+
+.main_img_container div img{
+    padding: 10px;
+    border-radius: 2rem;
+}
+
+.notice h1 {
+    font-size: 2rem;
+}
+
+.notice p {
+    font-size: 15px;
+}
+
+
+/* Shop CSS */
+
+
+
+.card {
+    size: 4rem;
+}
+
+
+.card-title {
+    font-size: 2rem;
+    
+}
+
+.card-text {
+    font-size: 12px;
+}
+
+
+
+/* media-queries */
+
+
+
+/* Login CSS */
+
+.main-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.form-user {
+    display: flex;
+    
+   justify-content: center;
+    
+   margin: 1rem 1rem 1rem 1rem;
+    font-size: 1.1rem;
+    border-radius: 2rem;
+    border: 1px solid #5D8B84;
+    height: auto;
+    width: auto;
+    padding: 1rem;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    
+    background-color: #5D8B84;
+    color: #fdffff;
+    
+}
+
+.form_contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; ;
+    align-content: center;
+    text-align: center;
+    margin: 1rem 1rem 1rem 1rem;
+    font-size: 1.1rem;
+    background-color: #5D8B84;
+    border-radius: 2rem;
+    height: auto;
+    width:  auto;
+    padding: 1rem;
+    border: 1px solid #5D8B84;
+    color: #fdffff;
+    
+}
+
+.form-user input {
+    font-size: large;
+    border: none;
+    margin: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.btn1 {
+    background-color: #5D8B84;
+    border: none;
+    color: #fdffff;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    font-size: 1.1rem;
+    margin: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 2rem;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+  .btn1 :after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    transition: 0.5s;
+  }
+  .btn1:hover  {
+    padding-right: 25px;
+  }
+  .btn1:hover :after {
+    opacity: 1;
+    right: 0;
+  }
+    
+
+
+.btn2 {
+    background-color: #5D8B84;
+    border: none;
+    color: #fdffff;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    font-size: 1.1rem;
+    margin: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 2rem;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    
+}
+
+.btn2 :after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    transition: 0.5s;
+  }
+  .btn2:hover  {
+    padding-right: 25px;
+  }
+  .btn2:hover :after {
+    opacity: 1;
+    right: 0;
+  }
+  /* End Login CSS */
+
+  .item {
+    width: 10%;
+    justify-content: center;
+    align-items: center;
+}
+
+.text   {
+    margin: 10px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+
 
 
 
