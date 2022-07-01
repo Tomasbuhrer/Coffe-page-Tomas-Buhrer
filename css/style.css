@@ -159,6 +159,10 @@ html{
     
 }
 
+.notice h1:hover {
+    text-decoration: underline;
+}
+
 /* termina aside*/
 
 .foo_img {
