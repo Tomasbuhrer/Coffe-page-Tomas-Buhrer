@@ -1,0 +1,41 @@
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    font-size: 1.2rem;
+    
+    #navbarNav {
+        justify-content: center0;
+    }
+
+    img {
+        width: 4rem;
+    }
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #5D8B84;
+        
+    }
+
+    li {
+        display: flex;
+        margin: 2px;
+        padding: 10px 10px 10px 10px;
+    }
+   
+}
+
+.nav-item {
+    a {
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        
+    }
+}
+/* termina menu */
+
