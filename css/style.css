@@ -63,10 +63,7 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
-  grid-template-areas: "nav"
- "header"
- "aside"
- "foo"; }
+  grid-template-areas: "nav" "header" "aside" "foo"; }
 
 /* ======= layouts names ====== */
 #nav {
@@ -168,7 +165,7 @@
   border: 1px solid #5D8B84;
   color: #fdffff; }
 
-.btn1 {
+.btn1, .btn2 {
   background-color: #5D8B84;
   border: none;
   color: #fdffff;
@@ -181,40 +178,15 @@
   display: inline-block;
   position: relative;
   transition: 0.5s; }
-  .btn1:after {
+  .btn1:after, .btn2:after {
     content: '\00bb';
     position: absolute;
     opacity: 0;
     top: 0;
     transition: 0.5s; }
-  .btn1:hover {
+  .btn1:hover, .btn2:hover {
     padding-right: 25px; }
-  .btn1:hover :after {
-    opacity: 1;
-    right: 0; }
-
-.btn2 {
-  background-color: #5D8B84;
-  border: none;
-  color: #fdffff;
-  padding: 0.5rem 1rem 0.5rem 1rem;
-  font-size: 1.1rem;
-  margin: 0.5rem 1rem 0.5rem 1rem;
-  border-radius: 2rem;
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s; }
-  .btn2:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    transition: 0.5s; }
-  .btn2:hover {
-    padding-right: 25px; }
-  .btn2:hover :after {
+  .btn1:hover :after, .btn2:hover :after {
     opacity: 1;
     right: 0; }
 
