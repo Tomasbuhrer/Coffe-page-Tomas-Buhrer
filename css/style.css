@@ -190,6 +190,9 @@
     opacity: 1;
     right: 0; }
 
+.img_container {
+  width: 90%; }
+
 .item {
   width: 10%;
   justify-content: center;

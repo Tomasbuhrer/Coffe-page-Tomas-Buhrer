@@ -217,6 +217,13 @@ $paleta: (
 
 //end login
 
+//about us
+.img_container {
+    width: 90%;
+    
+}
+//end about us
+
 .item {
     width: 10%;
     justify-content: center;
@@ -233,7 +240,7 @@ $paleta: (
 /* ============ Media_queries=========== */
 
 @media screen and (min-width: 768px) {
-   
+  
 
     #nav  {
         display: flex;
