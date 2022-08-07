@@ -62,10 +62,7 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
-  grid-template-areas: "nav"
- "header"
- "aside"
- "foo"; }
+  grid-template-areas: "nav" "header" "aside" "foo"; }
 
 /* ======= layouts names ====== */
 #nav {
@@ -221,7 +218,9 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 40px; }
-  
+  #aside {
+    display: flex;
+    flex-direction: column; }
   #foo {
     display: flex;
     flex-direction: row;
